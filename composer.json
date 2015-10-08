@@ -1,0 +1,12 @@
+{
+    "name": "jpg-consulting/cpanel-authentication",
+    "require": {
+        "php": ">=5.3.23",
+        "doctrine/dbal": "2.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CPanel\\Authentication\\": "src/"
+        }
+    }
+}
